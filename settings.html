@@ -44,6 +44,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="faq.html">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_download" href="#download">Download</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_contact" href="mailto:info@unlabeler.app">Contact</a></li>
                     </ul>
@@ -76,28 +77,55 @@
         </header>
         
         <!-- Text -->
-       <div class="container px-5 mb-5">
+        <div class="container px-5 mb-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <p class="lead fw-normal mb-3" data-i18n="settings-text1">
+                <p class="lead fw-normal mb-5" data-i18n="settings-text1">
                 Accessing the settings of 'The Unlabeler' is straightforward. Tap the gear icon located in the top right corner of the screen to customize your experience:
                 </p>
+                <h1 class="lead fw-bold mb-4 fs-2" data-i18n="settings-basic-settings">Basic Settings</h1>
+ 
                 <ol class="lead fw-normal mb-3">
+                    
                     <li class="lead fw-normal mb-3">
                         <strong data-i18n="settings-text2">Left-Handed Operation</strong>
                         <span data-i18n="settings-text3">: For left-handed users, you can mirror the buttons at the bottom from the right side to the left side by enabling 'left-handed operation'. This makes the app more comfortable and intuitive to use.</span>
                     </li>
                     <li class="lead fw-normal mb-3">
-                        <strong data-i18n="settings-text4">Label Width Options</strong>
-                        <span data-i18n="settings-text5">: Customize how the app handles the width of your unlabelled images. There are three different settings:</span>
-                        <ul class="lead fw-normal mb-3">
-                        <li><strong data-i18n="settings-text6">Unlimited</strong><span data-i18n="settings-text7">: The width of the label is automatically adjusted to be proportional to its height in the photo, without any restrictions.</span></li>
-                        <li><strong data-i18n="settings-text8">Limited</strong><span data-i18n="settings-text9">: The width is adjusted to be proportional to the height, but if it exceeds a set limit, the label will be scaled down to fit within that limit.</span></li>
-                        <li><strong data-i18n="settings-text10">Fixed</strong><span data-i18n="settings-text11">: The label is scaled to match a specific width exactly as specified. This option is particularly useful for maintaining a consistent presentation in your tasting app, as all labels will have the same width, providing a clear and uniform look.</span></li>
-                        </ul>
-                        <span data-i18n="settings-text12">You can set the limit for the 'Limited' and 'Fixed' options in the input field, choosing a value between 300 and 5000 pixels to suit your needs.</span>
+                        <strong data-i18n="settings-text4">Show Zoom Buttons</strong>
+                        <span data-i18n="settings-text5">: Show additional zoom buttons on the right side of the screen. You can zoom with two fingers in any case.</span>
+                    </li>
+                    <li class="lead fw-normal mb-5">
+                        <strong data-i18n="settings-text6">Save Camera Photo</strong>
+                        <span data-i18n="settings-text7">: If you take a photo directly with the camera, you can choose whether the photo should be saved in the photo library or not. If you do not save it, it will only be used for unlabeling.</span>
                     </li>
                 </ol>
-                <p class="lead fw-normal mb-3" data-i18n="settings-text13">
+                <h2 class="lead fw-bold mb-4 fs-2" data-i18n="settings-sommelier-package">Sommelier Package</h2>
+                <p class="lead fw-normal mb-3" data-i18n="settings-text8">The following settings are only available if you have purchased the 'Sommelier Package'.</p>
+                <ol class="lead fw-normal mb-3">
+                    <li class="lead fw-normal mb-3">
+                        <strong data-i18n="settings-text9">Label Width Options</strong>
+                        <span data-i18n="settings-text10">: Customize how the app handles the width of your unlabelled images. There are three different settings:</span>
+                        <ul class="lead fw-normal mb-3">
+                        <li><strong data-i18n="settings-text11">Unlimited</strong><span data-i18n="settings-text12">: The width of the label is automatically adjusted to be proportional to its height in the photo, without any restrictions.</span></li>
+                        <li><strong data-i18n="settings-text13">Limited</strong><span data-i18n="settings-text14">: The width is adjusted to be proportional to the height, but if it exceeds a set limit, the label will be scaled down to fit within that limit.</span></li>
+                        <li><strong data-i18n="settings-text15">Fixed</strong><span data-i18n="settings-text16">: The label is scaled to match a specific width exactly as specified. This option is particularly useful for maintaining a consistent presentation in your tasting app, as all labels will have the same width, providing a clear and uniform look.</span></li>
+                        </ul>
+                        <span data-i18n="settings-text17">You can set the limit for the 'Limited' and 'Fixed' options in the input field, choosing a value between 300 and 5000 pixels to suit your needs.</span>
+                    </li>
+                    <li class="lead fw-normal mb-3">
+                        <strong data-i18n="settings-text18">Filename of the Shared Label</strong>
+                        <span data-i18n="settings-text19">: You can specify the filename of the shared label. The default name is 'YourLabel.jpg'.</span>
+                    </li>
+                    <li class="lead fw-normal mb-3">
+                        <strong data-i18n="settings-text20">Unlabeler Album</strong>
+                        <span data-i18n="settings-text21">: You can save the label to the 'TheUnlabeler' album. If the album does not exist, it will be created automatically.</span>
+                    </li>
+                    <li class="lead fw-normal mb-3">
+                        <strong data-i18n="settings-text22">Unlabel Animation</strong>
+                        <span data-i18n="settings-text23">: After pressing the 'unlabel' button you will see an animation until your final label is calculated. Depending on the speed of your device and the size of the label the calculation is normally faster than the animation so you will see just the beginning. If you want to see the complete animation you can activate this setting.</span>
+                    </li>
+                </ol>
+                <p class="lead fw-normal mb-3" data-i18n="settings-text24">
                 These settings allow you to tailor The Unlabeler to your preferences, ensuring you capture the perfect label shot every time.
                 </p>
             </div>
@@ -107,10 +135,10 @@
         <div class="container px-5">
             <div class="row">
                 <div class="col text-start">
-                    <a href="usage.html" class="text-decoration-none" data-i18n="settings_back"><span>&larr;</span> How to Use the App</a>
+                    <a href="usage.html" class="text-decoration-none" data-i18n="settings_back"><span>&larr;</span> In-App Purchases</a>
                 </div>
                 <div class="col">
-                    <a href="faq.html" class="float-end text-decoration-none" data-i18n="settings_next"><span>&rarr;</span> FAQ</a>
+                    <a href="" class="float-end text-decoration-none" data-i18n="settings_next"><span>&rarr;</span> App Store</a>
                 </div>
             </div>
         </div>
@@ -124,7 +152,7 @@
                     <a data-i18n-link="index_link_legal" href="legal-notice.html" data-i18n="index_legal">Legal Notice</a>
                     <span class="mx-1">&middot;</span>
                     <a data-i18n-link="index_link_privacy" href="privacy-policy.html" data-i18n="index_privacy">Privacy Policy</a>
-                    <div class="mb-2">&copy; 2024 by Mug of Coffee GmbH</div>
+                    <div class="mb-2">&copy; 2025 by Mug of Coffee Software GmbH</div>
                 </div>
             </div>
         </footer>
