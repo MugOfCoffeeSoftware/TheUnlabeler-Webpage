@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>The Unlabeler</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>The Unlabeler</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <!-- Google fonts
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="js/app.js" defer></script>
-        <style>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/app.js" defer></script>
+    <!--<style>
             ol.lead {
               padding-left: 3em;
             }
@@ -25,121 +27,163 @@
               padding-left: 0;
               text-indent: 0;
             }
-        </style>
-    </head>
-    
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-nav nav-link d-flex align-items-center" href="index.html">
-                        <img src="assets/img/Unlabeler-wo-Background_light.png" width="30" height="30" class="d-inline-block align-top" style="margin-right: 20px;">
-                        Home
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="faq.html">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_download" href="#download">Download</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_contact" href="mailto:info@unlabeler.app">Contact</a></li>
-                    </ul>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle m-0 p-0" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-                            <span>&#127760;</span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item" onclick="changeLanguage('en')" href="settings.html">English</a></li>
-                            <li><a class="dropdown-item" onclick="changeLanguage('de')" href="settings.html">Deutsch</a></li>
-                            <li><a class="dropdown-item" onclick="changeLanguage('es')" href="settings.html">Español</a></li>
-                            <li><a class="dropdown-item" onclick="changeLanguage('fr')" href="settings.html">Français</a></li>
-                            <li><a class="dropdown-item" onclick="changeLanguage('it')" href="settings.html">Italiano</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        
-        <!-- Masthead header-->
-        <header class="masthead">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center text-center">
-                    <div>
-                    <h1 class="display-1 lh-1 mb-5" data-i18n="purchases-title">In-App Purchases</h1>
-                        <img src="assets/img/Settings-Picture.png" alt="Settings" class="icon-feature d-block mx-auto w-50" />
-                    </div>
-                </div>
-            </div>
-        </header>
-        
-        <!-- Text -->
-        <div class="container px-5 mb-5">
-            <div class="row gx-5 align-items-center justify-content-center">
-                <h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-free-version">Free Version</h1>
- 
-                <p class="lead fw-normal mb-5" data-i18n="purchases-text1">
-                    With the free version of 'The Unlabeler' you can unlabel and save as many labels as you want, but a small watermark will be added to all labels. Just test it out and you will be convinced!
-                </p>
-                <h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-pure-labels">Pure Labels</h1>
- 
-                <p class="lead fw-normal mb-5" data-i18n="purchases-text2">                   
-                    With the "Pure Labels" in-app purchase you can enjoy all your future labels without a disturbing watermark.</p>
+        </style> -->
+</head>
 
-                    <h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-sommelier-package">Sommelier Package</h1>
-                    <p class="lead fw-normal mb-3" data-i18n="purchases-text3">
-                        For power users, there is the „SOMMELIER PACKAGE“ which unlocks a variety of advanced features like:
-                    </p>
-                    <ul class="lead fw-normal mb-3">
-                        <li data-i18n="purchases-text4">Saving your labels in a separate album,</li>
-                        <li data-i18n="purchases-text5">Using a customizable name for shared labels,</li>
-                        <li data-i18n="purchases-text6">Setting a fixed pixel size for all labels, so they have the same width in your tasting app,</li>
-                        <li data-i18n="purchases-text7">Zooming in on the final label to check its quality,</li>
-                        <li data-i18n="purchases-text8">Adding a star rating to the final label, and more.</li>
-                    </ul>
-                    <p class="lead fw-normal mb-3" data-i18n="purchases-text9">
-                        All in-app purchases are one-time purchases. No subscriptions or hidden fees.
-                    </p>
-                    <p class="lead fw-normal mb-5" data-i18n="purchases-text10">
-                        The app works on iPhone, iPad and Mac with the same in-app purchases.
-                    </p>
-            </div>
-
-        </div>
-
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <div class="row">
-                <div class="col text-start">
-                    <a href="usage.html" class="text-decoration-none" data-i18n="purchases_back"><span>&larr;</span> How to Use the App</a>
-                </div>
-                <div class="col">
-                    <a href="faq.html" class="float-end text-decoration-none" data-i18n="purchases_next"><span>&rarr;</span> App Settings</a>
+            <div class="d-flex align-items-center">
+                <a class="navbar-nav nav-link d-flex align-items-center" href="index.html">
+                    <img src="assets/img/Unlabeler-wo-Background_light.png" width="30" height="30"
+                        class="d-inline-block align-top" style="margin-right: 20px;">
+                    Home
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <span
+                    style="font-family: Giphurs, sans-serif; font-size: 1.5em; font-weight: 300; position: relative; top: 3px">&#x2261;</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_download"
+                            href="#download">Download</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" data-i18n="nav_contact"
+                            href="mailto:info@mugofcoffee.de?subject=The%20Unlabeler">Contact</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle m-0 p-0" type="button" id="languageDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                        <span>&#127760;</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" onclick="changeLanguage('en')" href="settings.html">English</a>
+                        </li>
+                        <li><a class="dropdown-item" onclick="changeLanguage('de')" href="settings.html">Deutsch</a>
+                        </li>
+                        <li><a class="dropdown-item" onclick="changeLanguage('es')" href="settings.html">Español</a>
+                        </li>
+                        <li><a class="dropdown-item" onclick="changeLanguage('fr')" href="settings.html">Français</a>
+                        </li>
+                        <li><a class="dropdown-item" onclick="changeLanguage('it')" href="settings.html">Italiano</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        
+    </nav>
 
-        
-        <!-- Footer-->
-        <footer class="body-color-bg text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <a data-i18n-link="index_link_legal" href="legal-notice.html" data-i18n="index_legal">Legal Notice</a>
-                    <span class="mx-1">&middot;</span>
-                    <a data-i18n-link="index_link_privacy" href="privacy-policy.html" data-i18n="index_privacy">Privacy Policy</a>
-                    <div class="mb-2">&copy; 2025 by Mug of Coffee Software GmbH</div>
+    <!-- Masthead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center text-center">
+                <div>
+                    <h1 class="display-1 mb-5" data-i18n="purchases-title">In-App Purchases</h1>
+                    <img src="assets/img/In-App-Purchase.png" alt="Settings"
+                        class="icon-feature d-block mx-auto w-50" />
                 </div>
             </div>
-        </footer>
-        
-        
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        </div>
+    </header>
 
-    </body>
+    <!-- Text -->
+    <div class="container px-5 mb-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+
+            <!-- Free Version Section -->
+            <h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-free-version">Free Version</h1>
+            <p class="lead fw-normal mb-5" data-i18n="purchases-text1">
+                With the free version of 'The Unlabeler' you can unlabel and save as many labels as you want, but a
+                small watermark will be added to all labels. Just test it out and you will be convinced!
+            </p>
+
+
+           <!-- Pure Labels Section -->
+<h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-pure-labels">Pure Labels</h1>
+<div class="row align-items-center mb-5">
+    <div class="col-md-3 text-center mb-3 mb-md-0">
+        <img src="assets/img/PureLabels.png" alt="Pure Labels" class="img-fluid"
+            style="max-width: 70%; height: auto; border: 1px solid #fff; border-radius: 5px;">
+    </div>
+    <div class="col-md-9">
+        <p class="lead fw-normal" data-i18n="purchases-text2">
+            With the 'PURE LABELS' in-app purchase you can enjoy all your future labels without a disturbing watermark.
+        </p>
+    </div>
+</div>
+
+<!-- Sommelier Package Section -->
+<h1 class="lead fw-bold mb-4 fs-2" data-i18n="purchases-sommelier-package">Sommelier Package</h1>
+<div class="row align-items-center mb-5">
+    <div class="col-md-3 text-center mb-3 mb-md-0">
+        <img src="assets/img/SommelierPackage.png" alt="Sommelier Package" class="img-fluid"
+            style="max-width: 70%; height: auto;border: 1px solid #fff; border-radius: 5px;">
+    </div>
+    <div class="col-md-9">
+        <p class="lead fw-normal mb-3" data-i18n="purchases-text3">
+            For power users, there is the 'SOMMELIER PACKAGE' which unlocks a variety of advanced features like:
+        </p>
+        <ul class="lead fw-normal mb-3 ms-4">
+            <li data-i18n="purchases-text4">Saving your labels in a separate album,</li>
+            <li data-i18n="purchases-text5">Using a customizable name for shared labels,</li>
+            <li data-i18n="purchases-text6">Setting a fixed pixel size for all labels, so they have the same width in your tasting app,</li>
+            <li data-i18n="purchases-text7">Zooming in on the final label to check its quality,</li>
+            <li class="mb-5" data-i18n="purchases-text8">Adding a star rating to the final label, and more.</li>
+        </ul>
+    </div>
+</div>
+
+            <p class="lead fw-normal mb-3" data-i18n="purchases-text9">
+                All in-app purchases are one-time purchases. No subscriptions or hidden fees.
+            </p>
+            <p class="lead fw-normal mb-5" data-i18n="purchases-text10">
+                The app works on iPhone, iPad and Mac with the same in-app purchases.
+            </p>
+
+            
+        </div>
+
+    </div>
+
+    <div class="container px-5">
+        <div class="row">
+            <div class="col text-start">
+                <a href="usage.html" class="text-decoration-none" data-i18n="purchases_back"><span>&larr;</span> How to
+                    Use the App</a>
+            </div>
+            <div class="col">
+                <a href="settings.html" class="float-end text-decoration-none"
+                    data-i18n="purchases_next"><span>&rarr;</span> App Settings</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer-->
+    <footer class="body-color-bg text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <a data-i18n-link="index_link_legal" href="legal-notice.html" data-i18n="index_legal">Legal Notice</a>
+                <span class="mx-1">&middot;</span>
+                <a data-i18n-link="index_link_privacy" href="privacy-policy.html" data-i18n="index_privacy">Privacy
+                    Policy</a>
+                <div class="mb-2">&copy; 2025 by Mug of Coffee Software GmbH</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JS
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
