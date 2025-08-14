@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="purchase_description" />
+        <meta name="author" content="Mug of Coffee Software GmbH" />
+        <title>{{purchases_pagetitle}}</title>
+        <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+        <link href="../css/fonts.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link rel="alternate" href="https://unlabeler.app/en/in-app-purchases.html" hreflang="en" />
+        <link rel="alternate" href="https://unlabeler.app/de/in-app-purchases.html" hreflang="de" />
+        <link rel="alternate" href="https://unlabeler.app/es/in-app-purchases.html" hreflang="es" />
+        <link rel="alternate" href="https://unlabeler.app/it/in-app-purchases.html" hreflang="it" />
+        <link rel="alternate" href="https://unlabeler.app/en/in-app-purchases.html" hreflang="x-default" />
+        <!--<style>
+                ol.lead {
+                padding-left: 3em;
+                }
+                ol.lead li {
+                padding-left: 0;
+                text-indent: 0;
+                }
+            </style> -->
+    </head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <div class="d-flex align-items-center">
+                <a class="navbar-nav nav-link d-flex align-items-center" href="index.html">
+                    <img src="../assets/img/Unlabeler-wo-Background_light.png" width="30" height="30"
+                        class="d-inline-block align-top" style="margin-right: 20px;">
+                    Home
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                {{nav_menu}}
+                <span
+                    style="font-family: Giphurs, sans-serif; font-size: 1.5em; font-weight: 300; position: relative; top: 3px">&#x2261;</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" 
+                            href="https://apps.apple.com/de/app/the-unlabeler/id6746089276">{{nav_download}}</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" 
+                            href="mailto:info@mugofcoffee.de?subject=The%20Unlabeler">{{nav_contact}}</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle m-0 p-0" type="button" id="languageDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                        <span>&#127760;</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="../en/settings.html">English</a></li>
+                        <li><a class="dropdown-item" href="../de/settings.html">Deutsch</a>
+                        <li><a class="dropdown-item" href="../es/settings.html">Español</a></li>
+                        <li><a class="dropdown-item" href="../it/settings.html">Italiano</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Masthead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center text-center">
+                <div>
+                    <h1 class="display-1 mb-5">{{purchases-title}}</h1>
+                    <img src="../assets/img/In-App-Purchase.png" alt="{{purchases-title}}"
+                        class="icon-feature d-block mx-auto w-50" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Text -->
+    <div class="container px-5 mb-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+
+            <!-- Free Version Section -->
+            <h1 class="lead fw-bold mb-4 fs-2">{{purchases-free-version}}</h1>
+            <p class="lead fw-normal mb-5">{{purchases-text1}}</p>
+
+            <!-- Pure Labels Section -->
+            <h1 class="lead fw-bold mb-4 fs-2">{{purchases-pure-labels}}</h1>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="../assets/img/PureLabels.png" alt="Pure Labels" class="img-fluid"
+                    style="max-width: 70%; height: auto; border: 1px solid #fff; border-radius: 5px;">
+                </div>
+                <div class="col-md-9">
+                    <p class="lead fw-normal">{{purchases-text2}}</p>
+                </div>
+            </div>
+
+            <!-- Sommelier Package Section -->
+            <h1 class="lead fw-bold mb-4 fs-2">{{purchases-sommelier-package}}</h1>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="../assets/img/SommelierPackage.png" alt="{{purchases-sommelier-package}}" class="img-fluid"
+                    style="max-width: 70%; height: auto;border: 1px solid #fff; border-radius: 5px;">
+                </div>
+                <div class="col-md-9">
+                    <p class="lead fw-normal mb-3">{{purchases-text3}}</p>
+                    <ul class="lead fw-normal mb-3 ms-4">
+                        <li>{{purchases-text4}}</li>
+                        <li>{{purchases-text5}}</li>
+                        <li>{{purchases-text6}}</li>
+                        <li>{{purchases-text7}}</li>
+                        <li class="mb-5">{{purchases-text8}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="lead fw-normal mb-3">{{purchases-text9}}</p>
+            <p class="lead fw-normal mb-5">{{purchases-text10}}</p>
+            
+        </div>
+    </div>
+
+    <div class="container px-5">
+        <div class="row">
+            <div class="col text-start">
+                <a href="usage.html" class="text-decoration-none">{{purchases_back}}</a>
+            </div>
+            <div class="col">
+                <a href="settings.html" class="float-end text-decoration-none">{{purchases_next}}</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="body-color-bg text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <a href="legal-notice.html">{{index_legal}}</a>
+                <span class="mx-1">&middot;</span>
+                <a href="privacy-policy.html">{{index_privacy}}</a>
+                <div class="mb-2">&copy; {{copyright}}</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JS
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+
+</body>
+</html>

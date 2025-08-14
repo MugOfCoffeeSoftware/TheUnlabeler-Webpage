@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>The Unlabeler</title>
+    <meta http-equiv="refresh" content="0; url=/en/index.html" />
+    <script>
+        // Detect browser language and redirect
+        (function() {
+            var lang = navigator.language || navigator.userLanguage;
+            if (lang.startsWith('de')) {
+                window.location.replace('/de/index.html');
+            } else if (lang.startsWith('es')) {
+                window.location.replace('/es/index.html');
+            } else if (lang.startsWith('it')) {
+                window.location.replace('/it/index.html');
+            } else {
+                window.location.replace('/en/index.html');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
